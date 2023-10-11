@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+# Formulář s React Hook Form a Material UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tento projekt demonstruje použití knihovny React Hook Form spolu s Material UI pro vytvoření a validaci jednoduchého formuláře.
 
-## Available Scripts
+## Autor
 
-In the project directory, you can run:
+- **Jméno**: Tomáš Pour
+- **E-mail**: [prace@pourtomas.cz](mailto:prace@pourtomas.cz)
 
-### `npm start`
+## Funkce
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Vytvoření formuláře s čtyřmi vstupními poli: Jméno, Telefon, E-mail a Hlavní jazyk.
+- Použití React Hook Form pro sběr a validaci dat.
+- Použití Material UI pro stylizaci formuláře.
+- Validace e-mailu a telefonního čísla.
+- Zobrazení vybraných dat pod formulářem po odeslání.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instalace a spuštění
 
-### `npm test`
+1. Klonujte tento repozitář: `git clone [odkaz_na_repozitář]`
+2. Přejděte do složky projektu: `cd [název_složky]`
+3. Nainstalujte závislosti: `npm install`
+4. Spusťte aplikaci: `npm start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Aplikace by měla běžet na `http://localhost:3000/` (pokud jste nezměnili výchozí port).
 
-### `npm run build`
+## Kontakt
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Pokud máte jakékoliv dotazy nebo návrhy týkající se tohoto projektu, neváhejte mě kontaktovat na mém e-mailu: [prace@pourtomas.cz](mailto:prace@pourtomas.cz).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
