@@ -7,7 +7,6 @@ export const StyledForm = styled("form")`
   display: flex;
   flex-direction: column;
   gap: 24px;
-  font-family: "Helvetica Neue", sans-serif;
 `;
 
 export const StyledTextField = styled(TextField)`

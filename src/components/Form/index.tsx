@@ -1,4 +1,4 @@
-import React, { useMemo, useCallback, useState } from "react";
+import React, { useMemo, useState } from "react";
 import { useForm, Controller } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { formSchema } from "../../helpers/formSchema";
@@ -13,6 +13,8 @@ import {
 } from "./styles";
 
 export const Form: React.FC = () => {
+  const languages = useMemo(() => ["Čeština", "Angličtina", "Slovenština"], []);
+
   const [submittedData, setSubmittedData] = useState<FormInputs | null>(null);
 
   const { control, handleSubmit, formState } = useForm<FormInputs>({
@@ -20,11 +22,9 @@ export const Form: React.FC = () => {
     mode: "onChange",
   });
 
-  const languages = useMemo(() => ["Čeština", "Angličtina", "Slovenština"], []);
-
-  const onSubmit = useCallback((data: FormInputs) => {
+  const onSubmit = (data: FormInputs) => {
     setSubmittedData(data);
-  }, []);
+  };
 
   return (
     <>
